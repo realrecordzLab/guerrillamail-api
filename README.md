@@ -3,18 +3,8 @@
 
 # Guerrilla Mail API Wrapper
 
-A Promise-based Javascript wrapper for the [Guerrillamail API](https://www.guerrillamail.com/GuerrillaMailAPI.html).
-
-
-
-## Features
-
-- Interval polling with built-in **start**, **stop**, **play**, **pause** methods, using [setinterval-plus](https://www.npmjs.com/package/setinterval-plus)
-- Promise-based, using [Axios](https://www.npmjs.com/package/axios)
-- Event emitter, using [EventEmitter3][event emitter]
-
-
-
+This is a modified version of the [original fork](https://github.com/Dobby89/guerrillamail-api) that add the full support for using in non modular envoirment like nodejs cli scripts.
+ 
 ## Installation
 
 ```sh
